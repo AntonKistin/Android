@@ -35,6 +35,7 @@ public class MainActivity extends AppCompatActivity {
             alert.setTitle("Ошибка");
             alert.setMessage("У Вашего устройства нет вспышки!");
             alert.show();
+            //return;
         }
     }
 
