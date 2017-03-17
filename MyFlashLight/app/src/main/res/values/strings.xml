@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MyFlashLight</string>
+    <string-array name="colorList">
+        <item>Белый</item>
+        <item>Желтый</item>
+        <item>Зеленый</item>
+        <item>Красный</item>
+    </string-array>
+</resources>
