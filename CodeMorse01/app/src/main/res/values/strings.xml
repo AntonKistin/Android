@@ -1,10 +1,10 @@
 <resources>
     <string name="app_name">Азбука Морзе</string>
-    <string name="textET">Введите букву:</string>
+    <string name="textET">Введите текст:</string>
     <string name="btnText">Старт</string>
     <string name="textTV">Все работает!!!</string>
     <string name="txtVHeadText"><u>Введеное слово:</u></string>
     <string name="textHead"><u>Азбука Морзе</u></string>
     <string name="textHeadTwo"><u>в световых сигналах</u></string>
-    <string name="checkBoxText">Звук сигнала</string>
+    <string name="checkBoxText">Звук сигналов</string>
 </resources>

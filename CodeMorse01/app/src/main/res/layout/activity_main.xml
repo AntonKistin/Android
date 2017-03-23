@@ -14,7 +14,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:hint="@string/textET"
-        android:textColorHint="@color/textColorET"
         android:id="@+id/editTextActMain"
         android:maxLength="100"
         android:layout_gravity="center_vertical"
@@ -30,9 +29,9 @@
         android:background="@color/btnBackgroundColor"
         android:id="@+id/btnActMain"
         android:onClick="goTwoActivity"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="111dp" />
+        android:layout_marginTop="38dp"
+        android:layout_below="@+id/checkBox"
+        android:layout_centerHorizontal="true" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -63,9 +62,18 @@
         android:layout_height="wrap_content"
         android:text="@string/checkBoxText"
         android:id="@+id/checkBox"
+        android:layout_below="@+id/newSwitch"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOff="Дисплей"
+        android:textOn="LED"
+        android:id="@+id/newSwitch"
+        android:layout_marginTop="51dp"
         android:layout_below="@+id/editTextActMain"
-        android:layout_alignLeft="@+id/editTextActMain"
-        android:layout_alignStart="@+id/editTextActMain"
-        android:layout_marginTop="48dp" />
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>
