@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Азбука Морзе</string>
+    <string name="textET">Введите слово или цифры:</string>
+    <string name="btnText">Старт</string>
+    <string name="txtVHeadText"><u>Введеное слово:</u></string>
+    <string name="textHead">Азбука Морзе</string>
+    <string name="textHeadTwo">в световых сигналах</string>
+    <string name="checkBoxText">Звук сигналов</string>
+</resources>
